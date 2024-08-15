@@ -28,4 +28,4 @@ sleep 60
 ```
 
 - Use `slurm_submit.sh` to manage submission: `bash slurm_submit.sh my_job_script.sh`.
-- You job will be submitted to the high priority queue if it can start there immediately, or the preemptable queue otherwise. Use `squeue -u $USER` to see which of your jobs are running where; `blanca-g4-u12-3` is our node, anything else is preemptable.
+- Your job will be submitted to the high priority queue if it can start there immediately, or the preemptable queue otherwise. Use `squeue -u $USER` to see which of your jobs are running where; `blanca-g4-u12-3` is our node, anything else is preemptable.
